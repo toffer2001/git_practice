@@ -3,9 +3,9 @@ def puts_git(cmd)
   menu
 end
 
-def menu
-  puts '1: Enter git command'
-  puts '2: Exit'
+def menu  
+  puts '1) Enter git command'
+  puts '2) Exit'
   choice = gets.to_i
   case choice
   when 1
